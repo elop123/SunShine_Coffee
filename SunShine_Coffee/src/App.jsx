@@ -3,7 +3,7 @@ import { MainLayout } from './Layout/MainLayout/MainLayout'
 import { Home } from './pages/Home/Home'
 import { Products } from './pages/Products/Products'
 import { Login } from './pages/Login/Login'
-
+import { Shipping } from './pages/Shipping/Shipping'
 
 function App() {
   return (
@@ -14,6 +14,7 @@ function App() {
           <Route index element={<Home />} />  
           <Route path="/products" element={<Products />} />  
           <Route path="/login" element={<Login />} />  
+          <Route path="/shipping" element={<Shipping />} />  
         </Route>
       </Routes>
     

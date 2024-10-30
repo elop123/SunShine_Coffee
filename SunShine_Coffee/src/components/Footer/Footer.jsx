@@ -1,5 +1,6 @@
 import React from 'react'
 import s from './Footer.module.scss'
+import { Link } from 'react-router-dom'
 
 export const Footer = () => {
   return (
@@ -15,8 +16,10 @@ export const Footer = () => {
             <div>
             <li>Legal</li> <br />
             <li>Cookie policy</li>
-            <li>Retrun policy</li>
+            <li>Return policy</li>
+            <Link to="/shipping">
             <li>Shipping</li>
+            </Link>
             <li>Terms and conditions</li>
             </div>
             <div>

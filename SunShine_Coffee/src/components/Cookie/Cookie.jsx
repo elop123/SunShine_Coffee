@@ -1,8 +1,9 @@
 import React, { useEffect, useState } from "react";
 import style from "./Cookie.module.scss";
 import ReactGA from "react-ga4";
+import s from './Cookie.module.scss'
 
- const CookieBanner = () => {
+ const Cookie = () => {
   const [withTracking, setWithTracking] = useState(false);
   const [hasUserCookie, setHasUserCookie] = useState(false);
 
@@ -41,11 +42,15 @@ import ReactGA from "react-ga4";
     hasUserAccepted == null && (
       <div className={style.cookie_banner}>
         <section>
-          <p>This site uses cookies for tracking purposes.</p>
+          <p>We Use Cookies to Enhance Your Experience.<br/>This website uses cookies to improve your
+           browsing experience and analyze traffic.<br/> By accepting, you agree to the use of cookies 
+           for tracking purposes and to help us improve our services. 
+           <br/>These cookies collect data about your interactions with our website and allow us to 
+           personalize content.</p>
         </section>
         <section>
-          <button onClick={disableGA}>DENY</button>
-          <button onClick={enableGA}>ACCEPT</button>
+          <button className={s.denyButton} onClick={disableGA}>DENY</button>
+          <button className={s.acceptButton} onClick={enableGA}>ACCEPT</button>
         </section>
       </div>
     )

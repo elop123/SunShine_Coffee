@@ -10,9 +10,9 @@ export const Shop = () => {
     <p className={s.text} >Our delicious coffees wil get you brewing the best cup of coffee you ever tasted in no 
         time at all. And the best part of it? It is totally organic, fair trade and sustainably 
         sourced. So get brewing</p>
-    <Link to="/products"></Link>
+    <Link to="/products">
     <button className={s.buttonStyle}>Go to products</button>
-    <Link/>
+    </Link>
     </div>
    </section>
   )
