@@ -1,0 +1,39 @@
+.names {
+    background-color: #EFEFEF;
+    text-align: center;
+    padding: 2rem;
+    margin-top: 2rem;
+    .titleStyle {
+      text-align: center;
+      font-size: 128px;
+      font-family: 'Licorice';
+      font-weight: 400;
+      margin-bottom: 2rem; 
+    }
+  
+    .articles {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr); 
+      gap: 20px; 
+      justify-items: center; 
+    }
+  
+    .nameStyle {
+      text-align: center;
+      width: 100%;
+      padding: 1rem;
+    }
+  
+    .name {
+      margin-bottom: 0.5rem;
+      font-size: 20px;
+      font-family: 'Inika';
+    }
+  
+    p {
+      width: 85%;
+      font-size: 20px;
+      font-family: 'Inika';
+    }
+  }
+  

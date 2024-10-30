@@ -1,0 +1,43 @@
+.sectionStyle{
+    background-color: #EFEFEF;
+    text-align: center;
+    margin-top: 3rem;
+    width: 100%;
+    height: 560px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .titleStyle{
+        font-size: 128px;
+        font-family: 'Licorice';
+        text-align: center;
+        font-weight: 400;
+    }
+    .textStyle{
+        display: block;
+        justify-content: center;
+        text-align: center;
+        .text{
+            margin-top: -5rem;
+            align-self: center;
+            width: 600px;
+            //align-items: center;
+            //display: block;
+            //justify-content: center;
+            font-size: 24px;
+            font-family: 'Inika';
+        }
+        
+        .buttonStyle{
+            width: 230px;
+            height: 50px;
+            padding: 10px 20px;
+           background-color: black;
+           color: white;
+           border-radius: 8px;
+        }
+    }
+}
+    
+
+   

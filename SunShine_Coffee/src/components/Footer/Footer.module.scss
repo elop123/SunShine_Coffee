@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Inika:wght@400;700&family=Inspiration&family=Licorice&family=Righteous&family=Roboto+Flex:opsz,wght@8..144,100..1000&display=swap');
+.footerStyle{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    background-color: black;
+    color: white;
+    height: 260px;
+    //margin-top: 2rem;
+    //margin-left: 2.5rem;
+    gap: 3rem;
+    div{
+        margin-top: 2rem;
+    }
+    li{
+       list-style-type: none;
+       align-items: center;
+       font-size: 24px;
+       font-family: 'Inika';
+       //margin: 0.5rem;
+       //padding: 2px;
+    }
+}
