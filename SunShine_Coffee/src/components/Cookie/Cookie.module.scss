@@ -6,7 +6,6 @@
     bottom: 0;
     display: grid;
     grid-template-columns: 7fr 1fr;
-
     section{
         p{
             text-align: center;
@@ -22,7 +21,6 @@
             color: white;
             margin-top: 1rem;
             border-radius: 8px;
-            
         }
         .acceptButton{
             background-color: green;
@@ -54,7 +52,6 @@
         }
         
     }
-   
     button {
         width: 100px; 
         height: 35px;

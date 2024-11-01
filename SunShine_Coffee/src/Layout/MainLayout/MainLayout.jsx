@@ -7,20 +7,20 @@ import Cookie from '../../components/Cookie/Cookie'
 
 
 export const MainLayout = () => {
-  const location = useLocation();
+const location = useLocation();
 
-  console.log("Current Path:", location.pathname)
+console.log("Current Path:", location.pathname)
 
-    // Check the current route 
-    const isLoginPage = location.pathname === '/login'
-    const isShippingPage = location.pathname === '/shipping'
-    const isCheckOutPage = location.pathname === '/checkout'
+// Check the current route 
+const isLoginPage = location.pathname === '/login'
+const isShippingPage = location.pathname === '/shipping'
+const isCheckOutPage = location.pathname === '/checkout'
 
 
   return (
    <>
    <Navbar/>
-   {!isLoginPage && !isShippingPage && !isCheckOutPage && <Header />} {/* Show Header only if not Login Page */}
+   {!isLoginPage && !isShippingPage && !isCheckOutPage && <Header />} 
    <Outlet/>
    <Footer/>
    <Cookie />
