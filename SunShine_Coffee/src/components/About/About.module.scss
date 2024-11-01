@@ -1,4 +1,3 @@
-
 .salesStyle {
     display: flex;
     justify-content: space-between;
@@ -11,7 +10,7 @@
     margin-right: 2rem;
     width: 100%;
     margin:-1rem;
-    margin-top: 15rem;
+    margin-top: 7rem;
   .salesItem {
     text-align: center;
     margin-top: 1rem;
@@ -20,9 +19,8 @@
   
   .title {
     font-family: 'Licorice', cursive;
-    font-size: 60px;
+    font-size: 64px;
     font-weight: 400;
-    //margin-bottom: 2rem;
     text-align: center;
     padding: 1rem;
     
@@ -30,7 +28,7 @@
   
   .text {
     font-size: 14px;
-    color: #333;
+    color: #000000;
     line-height: 1.5;
     width: 376px;
     text-align: center;
@@ -48,6 +46,37 @@
   }
   }
   
+
+  @media (max-width: 768px) {
+    .salesStyle {
+        flex-direction: column;
+        gap: 20px; 
+        padding: 20px; 
+    }
+    .title {
+        font-size: 48px; 
+    }
+    .text {
+        width: 90%; 
+        font-size: 16px; 
+    }
+    .salesItem img {
+        max-width: 90%; 
+        height: auto; 
+    }
+}
+
+@media (max-width: 768px) {
+    .title {
+        font-size: 36px; 
+    }
+    .text {
+        font-size: 14px; 
+    }
+    .salesItem img {
+        max-width: 100%; 
+    }
+}
   
  
 

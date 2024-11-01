@@ -14,7 +14,7 @@ informed of any changes.</p>
 <p>Standard Shipping (3-7 business days): Free for orders over $50. A flat rate of $5.99 applies for
    orders under $50.
 Express Shipping (1-3 business days): Available at a flat rate of $15.99.
-International Shipping: Currently, we ship only within [Country]. For international inquiries, please contact our customer service.
+International Shipping: Currently, we ship only within Denmark, UK. For international inquiries, please contact our customer service.
 Note: Delivery times are estimates and start from the shipping date, not the order date.</p>
 
 <h3><strong>3. Order Tracking</strong></h3>

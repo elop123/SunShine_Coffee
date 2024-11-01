@@ -1,20 +1,15 @@
 .loginContainer {
-    //max-width: 400px;
     margin: 0 auto;
-    //margin-top: 6rem;
     padding: 2rem;
-    background-color: #f9f9f9;
+    background-color: #EFEFEF;
     text-align: center;
-    border-radius: 8px;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     height: 110vh;
-    
   }
-  
   h2 {
     font-family: 'Licorice', cursive;
     font-size: 128px;
@@ -22,7 +17,6 @@
     margin-bottom: 1rem;
     margin-top: 8rem;
   }
-  
   .inputStyle {
     margin-bottom: 1rem;
     text-align: left;
@@ -33,21 +27,18 @@
       margin-bottom: 0.5rem;
       font-family: 'Inika';
     }
-  
     input {
       width: 380px;
       padding: 1rem;
       font-size: 16px;
-      border: 1px solid #ccc;
+      border: 1px solid #1f1f1f;
       border-radius: 4px;
-     
     }
   }
-  
   .buttonStyle {
     width: 180px; 
     padding: 0.8rem 1.2rem;
-    background-color: #333;
+    background-color:#1E1E1E;
     color: #fff;
     border: none;
     border-radius: 8px;
@@ -58,16 +49,31 @@
    
     &:first-of-type {
         background-color: #fff;
-        color: black;
-        border: 2px solid black;
-        margin-right: 1rem; /* Add space between buttons */
+        color: #1E1E1E;
+        border: 1px solid #1E1E1E;
+        margin-right: 1rem; 
       }
       .buttonStyle:last-of-type {
-        background-color: #333;
+        background-color: #1E1E1E;
         color: #fff;
-        border: 2px solid #333;
-        margin-left: 1rem; /* Add space between buttons */
+        border: 2px solid #1E1E1E;
+        margin-left: 1rem; 
       }
   }
   
- 
+  @media (max-width: 768px) {
+    .loginContainer {
+        padding: 1.5rem;
+        height: auto; 
+        h2 {
+          font-size: 60px; 
+          margin-top: 5rem;
+      }
+      .buttonStyle {
+        width: 150px; 
+        height: 48px;
+        align-items: center;
+    }
+    }
+   
+}

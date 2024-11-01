@@ -37,3 +37,27 @@
         }
     }
 }
+
+@media (max-width: 768px) {
+    .cookie_banner {
+        width:450px;
+        height: auto; 
+        grid-template-columns: 1fr; 
+        padding: 1rem;
+        gap: 1rem;
+        section {
+            align-items: center;
+            justify-content: center;
+            p {
+                font-size: 12px; 
+            }
+        }
+        
+    }
+   
+    button {
+        width: 100px; 
+        height: 35px;
+        margin: 0.5rem;
+    }
+}

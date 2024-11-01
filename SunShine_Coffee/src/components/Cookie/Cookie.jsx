@@ -40,7 +40,7 @@ import s from './Cookie.module.scss'
   return (
     hasUserCookie === false &&
     hasUserAccepted == null && (
-      <div className={style.cookie_banner}>
+      <div className={s.cookie_banner}>
         <section>
           <p>We Use Cookies to Enhance Your Experience.<br/>This website uses cookies to improve your
            browsing experience and analyze traffic.<br/> By accepting, you agree to the use of cookies 

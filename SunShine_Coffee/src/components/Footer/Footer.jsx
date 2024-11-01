@@ -13,7 +13,7 @@ export const Footer = () => {
             <li>Phone:22331122</li>
             <li>Mail:coffeeland@info.com</li>
             </div>
-            <div>
+            <div className={s.links}>
             <li>Legal</li> <br />
             <li>Cookie policy</li>
             <li>Return policy</li>
