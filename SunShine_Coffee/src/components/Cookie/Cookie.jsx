@@ -33,7 +33,7 @@ import s from './Cookie.module.scss'
     localStorage.setItem("userAccept", false);
   }
 
-  // Check i localstorage om brugeren allerede har accepteret eller afslået Cookies
+  // Check in localstorage if user has accepted cookie or not 
   const hasUserAccepted = localStorage.getItem("userAccept");
   console.log("User Accepted", hasUserAccepted);
 
