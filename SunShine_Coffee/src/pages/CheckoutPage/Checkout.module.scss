@@ -42,6 +42,9 @@
     flex-direction: column;
     gap: 20px;
     padding: 20px;
+    .orderTotal{
+      margin-top: -2rem;
+    }
     .orderItem, .orderTotal {
       display: flex;
       justify-content: space-between;

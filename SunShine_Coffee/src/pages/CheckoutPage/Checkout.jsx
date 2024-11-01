@@ -5,6 +5,10 @@ import { useCart } from 'react-use-cart'
 const Checkout = () => {
     const { items, cartTotal } = useCart();
 
+    const subtotal = items.reduce((acc, item) => acc + item.price * item.quantity, 0);
+    const tax = (subtotal * 0.25).toFixed(2); 
+    const total = (parseFloat(subtotal) + parseFloat(tax)).toFixed(2);
+
   return (
     <section className={s.checkoutContainer}>
       <h2 className={s.title}>Checkout</h2>
@@ -37,9 +41,18 @@ const Checkout = () => {
           ) : (
             <p>Your cart is empty.</p>
           )}
+             <div className={s.orderTotal}>
+            <p>Subtotal</p>
+            <p>{subtotal} DKK</p>
+          </div>
+
+          <div className={s.orderTotal}>
+            <p>Tax (25%)</p>
+            <p>{tax} DKK</p>
+          </div>
           <div className={s.orderTotal}>
             <p>Total</p>
-            <p>{cartTotal} DKK</p>
+            <p>{total} DKK</p>
           </div>
           
           <section className={s.shippingOptions}>
